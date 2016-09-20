@@ -9,6 +9,13 @@
           box-sizing: border-box;
 }
 
+.app {
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:         flex;
+}
+
 .screenshot {
   max-width: 460px;
 }
